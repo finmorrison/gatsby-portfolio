@@ -3,7 +3,9 @@ import PropTypes from 'prop-types'
 import profilePic from '../images/EDIT-7988.png'
 
 const Header = props => (
+  
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
+      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"></link>
     <div className="logo">
       <img src={profilePic} className="profilePic" />
     </div>

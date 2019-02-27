@@ -50,7 +50,7 @@
       left: calc(50% - #{_size(border-width) * 1});
       width: _size(border-width);
       height: calc(3.5rem + 1px);
-      background: _palette(border);
+      // background: _palette(border);
     }
   }
 

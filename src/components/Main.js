@@ -84,8 +84,9 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-
+          
           <div
+          
             style={{
               // position: 'absolute',
               width: '100%',
